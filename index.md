@@ -9,7 +9,7 @@ I am a Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}
 
 I earned my MPhil and PhD in AI at New York University under the mentorship of [Dr. Christina Pöpper](http://poepper.net){:target="_blank"}, supported by the Global PhD Fellowship. My research has been recognized with notable honors, including the Health Equity & Global Health Best Paper Award at ML4H 2023 and runner-up for the Andreas Pfitzmann Best Paper Award at PETS 2024.
 
-Previously, I held roles at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"} and [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}, where I contributed to projects at the intersection of technical innovation, security, and ethical oversight. Earlier, I had the privilege of attending college at NYU Abu Dhabi, where I collaborated with ambitious peers from over 100 countries, sparking countless late-night conversations about the future we aspired to create. During high school, I represented Pakistan’s national team in the [International Chemistry Olympiad](https://en.wikipedia.org/wiki/International_Chemistry_Olympiad){:target="_blank"}.
+Previously, I held roles at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"} and [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}, where I contributed to projects at the intersection of technical innovation, security, and ethical oversight. Earlier, I attended college at NYU Abu Dhabi with peers from over 100 countries. During high school, I represented Pakistan’s national team in the [International Chemistry Olympiad](https://en.wikipedia.org/wiki/International_Chemistry_Olympiad){:target="_blank"}.
 
 
 #### Recently
@@ -23,13 +23,13 @@ Previously, I held roles at the [Center for Cyber Security](https://cyber.nyu.ed
 
 *Mar '24*: Appointed Publication Chair for [ACNS 2024](https://wp.nyu.edu/acns2024/organization/){:target="_blank"} conference.
 
-*Dec '23*: Received the Best Paper Award at [Machine Learning for Health](https://ml4health.github.io/2023/){:target="_blank"} conference, co-located with NeurIPS. 
+*Dec '23*: Received the Best Paper Award at [Machine Learning for Health](https://ml4health.github.io/2023/){:target="_blank"} conference, co-located with NeurIPS 2023. 
 
 *Jun '23*: Engaged with the UN Information Integrity team to address risks of online hate speech.
 
 *May '23*: Served on the Program Committee for [SecWeb 2023](https://secweb.work/2023.html){:target="_blank"}.
 
-*Feb '23*: Delivered a talk at the [Microsoft Research (MSR)](https://www.linkedin.com/feed/update/urn:li:activity:7034514423289364480/){:target="_blank"} Colloquium, presenting my research on threat modeling of disinformation campaigns
+*Feb '23*: Delivered a talk at the [Microsoft Research](https://www.linkedin.com/feed/update/urn:li:activity:7034514423289364480/){:target="_blank"} Colloquium, presenting my research on disinformation threat modeling.
 
 
 #### Research
