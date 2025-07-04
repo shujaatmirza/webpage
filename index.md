@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 I am a Researcher at Microsoft with the AI Red Team, where I focus on probing and improving the safety and security of frontier AI systems. I received my PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](http://poepper.net){:target="_blank"}, with research centered on responsible AI and privacy technologies. 
 
 Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, mentoring 11 researchers in shaping impactful projects on AI alignment, control, evaluations and governance. Prior to that, I held research roles at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"} and [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}, where I contributed to cross-disciplinary efforts at the intersection of technical innovation, security, and ethical oversight.
@@ -11,7 +10,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 #### Recent Highlights
 <hr>
 
-*April '24*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security in Seattle.
+*April '25*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security in Seattle.
 
 *Dec '24*: Elevated to IEEE Senior Member in recognition of over 10 years of contributions to the profession.
 
