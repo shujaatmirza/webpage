@@ -10,7 +10,11 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 #### Recent Highlights
 <hr>
 
-*April '25*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security in Seattle.
+*August '25*: Attending the Vegas AI Security Forum - say hi if you're there!
+
+*July '25*: Excited to join the Program Committee for USENIX Security 2026. Awaiting your submissions!
+
+*April '25*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security 2025 in Seattle.
 
 *Dec '24*: Elevated to IEEE Senior Member in recognition of over 10 years of contributions to the profession.
 
