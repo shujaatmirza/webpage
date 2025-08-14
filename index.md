@@ -10,13 +10,11 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 #### Recent Highlights
 <hr>
 
-*Aug '25*: Honored to receive the *Distinguished Artifact Award* at the 34th USENIX Security Symposium for our work on reverse-engineering and jailbreaking safety guardrails in DALL·E models.
+*Aug '25*: Honored to receive the *Distinguished Artifact Award* at the 34th USENIX Security Symposium for [reverse-engineering and jailbreaking safety guardrails in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"}.
 
 *July '25*: Contributed to Microsoft’s extensive red-teaming exercise for the OpenAI GPT-5 Reasoning model, assessing its capabilities in autonomy, persuasion, and deception.
 
 *July '25*: Excited to join the Program Committee for USENIX Security 2026. Awaiting your submissions!
-
-*April '25*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security 2025 in Seattle.
 
 *Dec '24*: Elevated to IEEE Senior Member in recognition of over 10 years of contributions to the profession.
 
@@ -28,9 +26,11 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 *Dec '23*: Received the Best Paper Award at [Machine Learning for Health](https://ml4health.github.io/2023/){:target="_blank"} conference, co-located with NeurIPS 2023. 
 
-*Jun '23*: Engaged with the UN Information Integrity team to address risks of online hate speech.
-
 *May '23*: Served on the Program Committee for [SecWeb 2023](https://secweb.work/2023.html){:target="_blank"}.
+
+<!-- *Jun '23*: Engaged with the UN Information Integrity team to address risks of online hate speech.
+
+* -->
 
 
 #### Research
