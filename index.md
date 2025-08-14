@@ -10,6 +10,10 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 #### Recent Highlights
 <hr>
 
+*Aug '25*: Honored to receive the *Distinguished Artifact Award* at the 34th USENIX Security Symposium for our work on reverse-engineering and jailbreaking safety guardrails in DALL·E models.
+
+*July '25*: Contributed to Microsoft’s extensive red-teaming exercise for the OpenAI GPT-5 Reasoning model, assessing its capabilities in autonomy, persuasion, and deception.
+
 *July '25*: Excited to join the Program Committee for USENIX Security 2026. Awaiting your submissions!
 
 *April '25*: Our research on [reverse-engineering and jailbreaking safety filters in DALL·E models](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf){:target="_blank"} will be presented at USENIX Security 2025 in Seattle.
