@@ -20,15 +20,15 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
     <h5><i class="fas fa-graduation-cap"></i> Education</h5>
     <div class="edu-item">
       <span class="edu-degree">PhD in Computer Science</span>
-      <span class="edu-school">New York University, 2024</span>
+      <span class="edu-school">New York University</span>
     </div>
     <div class="edu-item">
       <span class="edu-degree">MPhil in Computer Science</span>
-      <span class="edu-school">NYU Courant Institute, 2022</span>
+      <span class="edu-school">NYU Courant Institute</span>
     </div>
     <div class="edu-item">
       <span class="edu-degree">BS in Computer Science</span>
-      <span class="edu-school">NYU Abu Dhabi, 2018</span>
+      <span class="edu-school">NYU Abu Dhabi</span>
     </div>
   </div>
 </div>

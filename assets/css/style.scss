@@ -535,8 +535,8 @@ html, body {
   }
 
   .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 
   .photo-frame {
@@ -544,8 +544,14 @@ html, body {
   }
 
   .site-name {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 6px;
+  }
+
+  // Bump text size on mobile
+  body, .content p, .content > p:first-child, .content > p:first-child + p,
+  .news-text, .pub-title {
+    font-size: 16px;
   }
 
   // Tighter icon gap, bigger icons
