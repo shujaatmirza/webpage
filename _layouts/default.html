@@ -5,122 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-{% seo %}
+    <link rel="icon" type="image/jpeg" href="{{ "/assets/img/headshot.jpeg" | relative_url }}">
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7CS1PGEX1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-N7CS1PGEX1');
+    </script>
+
+    {% seo %}
+
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  <!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-  
-    <!-- Academicons -->
-	<link rel="stylesheet" href="assets/css/academicons.min.css"/>
-  <!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <style>
-    .profile-image {
-        width: 200px; /* Adjust size as needed */
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        display: block;
-        margin: 0 auto;
-    }
-  </style>
-
   </head>
   <body>
     <div class="wrapper">
-      <header class="main-header">
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        <!--{% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}-->  
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" class="profile-image" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-<!-- 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %} -->
-        <!--<p style="text-align:center;"> PhD, Computer Science  <br> Courant Institute <br> New York University </p> -->
-        <div class="containers">   
-              <div class="row text-center" id="contact-items">
-                <a style="padding-right:20px !important" style="padding-left:40px !important" href="mailto:shujaat.mirza@nyu.edu" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a>
-                <a style="padding-right:20px !important" href="https://scholar.google.ae/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-                <a href="https://twitter.com/shujaatmirzaa" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-              </div>
-        </div>
-
-        <!-- Email: shujaat [dot] mirza [at] nyu [dot] edu <br></p> -->
-        <!-- <div class="media flex-column flex-md-row align-items-center">
-          <div class="resume-contact text-center mb-0 mr-md-5">
-            <div>
-              <ul class="list-inline align-items-center mb-0">
-                <li class="list-inline-item equal-margin mb-2">
-                    <a class="resume-icon-link" href="https://twitter.com/" target="_blank">
-                      <i class="fab fa-twitter-square fa-2x" ></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item equal-margin mb-2">
-                    <a class="resume-icon-link" href="https://scholar.google.com/" target="_blank">
-                      <i class="ai ai-google-scholar ai-2x" data-ai-transform="down-4"></i>
-                    </a>
-                </li>
-              </ul>
+      <aside class="sidebar">
+        <div class="sidebar-inner">
+          {% if site.logo %}
+            <div class="photo-frame">
+              <img src="{{site.logo | relative_url}}" alt="{{ site.title }}" class="profile-image" />
             </div>
-          </div>
-        </div> -->
+          {% endif %}
 
-        
-      
-      </header>
-      <section>
+          <h1 class="site-name"><a href="https://www.shujaatmirza.com/">{{ site.title }}</a></h1>
+          <p class="site-tagline">{{ site.description }}</p>
 
-      {{ content }}
+          <nav class="social-links" aria-label="Social profiles">
+            <a href="mailto:shujaat.mirza@nyu.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.ae/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://www.linkedin.com/in/shujaatmirzaa/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/shujaatmirzaa" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          </nav>
+        </div>
+      </aside>
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <!-- <p><small> Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
-      </footer>
+      <main class="content">
+        {{ content }}
+      </main>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
   </body>
 </html>

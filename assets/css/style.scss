@@ -3,195 +3,646 @@
 
 @import "jekyll-theme-minimal";
 
-// Clean & Professional Layout
+// ============================================
+// DESIGN SYSTEM — Refined Academic
+// ============================================
+:root {
+  // Warm neutral base
+  --color-bg:         #f4f3ef;
+  --color-surface:    #ffffff;
+  --color-sidebar-bg: #f9f8f6;
+
+  // Text hierarchy — warm blacks and grays
+  --color-ink:        #1c1917;
+  --color-body:       #3c3836;
+  --color-secondary:  #706b65;
+  --color-muted:      #a09a93;
+  --color-faint:      #d1ccc5;
+
+  // One deliberate accent — steel blue with clarity
+  --color-accent:     #3d5a80;
+  --color-accent-hover: #2c4460;
+
+  // Award — refined gold, used sparingly
+  --color-award:      #7d5e12;
+  --color-award-bg:   #faf4e6;
+
+  // Structural
+  --color-rule:       #e3dfd8;
+
+  // Fonts
+  --font-serif:       'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans:        'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --sidebar-width:    280px;
+  --section-gap:      44px;
+
+  // Type scale
+  --text-xl:    27px;  // sidebar name
+  --text-lg:    16px;  // reserved
+  --text-base:  15px;  // body, news, info items
+  --text-sm:    13px;  // dates, venues, sub-text
+  --text-xs:    11px;  // labels, badges, footer
+}
+
+// ============================================
+// RESET & BASE
+// ============================================
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-body);
+  background: var(--color-bg);
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover, a:focus {
+  color: var(--color-accent-hover);
+  font-weight: inherit;
+}
+
+strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+// ============================================
+// LAYOUT
+// ============================================
 .wrapper {
-  width: 1100px;
+  width: 100%;
+  max-width: 1060px;
   margin: 0 auto;
   display: flex;
   min-height: 100vh;
 }
 
-.main-header {
-  width: 320px;
-  background: #ffffff;
-  padding: 40px 30px;
+// ============================================
+// SIDEBAR
+// ============================================
+.sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  background: var(--color-sidebar-bg);
   position: fixed;
   height: 100vh;
   overflow-y: auto;
-  box-sizing: border-box;
+}
+
+.sidebar-inner {
+  padding: 60px 32px 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-right: 1px solid #e2e8f0;
 }
 
-section {
-  width: calc(100% - 320px);
-  margin-left: 320px;
-  padding: 50px 60px;
-  background: #ffffff;
-  min-height: 100vh;
-  box-sizing: border-box;
+.photo-frame {
+  margin-bottom: 24px;
 }
 
-// Profile image styling
 .profile-image {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 25px;
-  border: 3px solid #f7fafc;
-  transition: all 0.2s ease;
+  display: block;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 3px solid var(--color-surface);
 }
 
-.profile-image:hover {
-  border-color: #e2e8f0;
+.site-name {
+  font-family: var(--font-serif);
+  font-size: 27px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
 }
 
-// Name styling
-.main-header h1 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #2d3748;
-  margin: 0 0 30px 0;
-  line-height: 1.3;
-  white-space: nowrap;
-  letter-spacing: -0.02em;
-  text-align: center;
-}
-
-.main-header h1 a {
-  color: inherit;
+.site-name a {
+  color: var(--color-ink);
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-.main-header h1 a:hover {
-  color: #3182ce;
+.site-name a:hover {
+  color: var(--color-accent);
 }
 
-// Hide description text
-.main-header p {
-  display: none;
+.site-tagline {
+  font-size: var(--text-sm);
+  color: var(--color-secondary);
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.005em;
 }
 
-// Contact links styling
-#contact-items {
+.social-links {
   display: flex;
-  flex-direction: row;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin-top: 10px;
-  padding: 0;
-  flex-wrap: nowrap;
+  margin-top: 28px;
 }
 
-#contact-items a {
-  color: #718096;
-  text-decoration: none;
+.social-links a {
+  color: var(--color-muted);
   font-size: 16px;
-  transition: color 0.15s ease;
-  padding: 2px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-#contact-items a:hover {
-  color: #3182ce;
+.social-links a:hover {
+  color: var(--color-accent);
+  transform: translateY(-1px);
 }
 
-// Ensure icons stay on one row
-.containers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+// Text selection
+::selection {
+  background: rgba(61, 90, 128, 0.12);
+  color: var(--color-ink);
 }
 
-.row.text-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: nowrap;
+// Smooth scroll
+html {
+  scroll-behavior: smooth;
 }
 
-// Main content typography
-section h1 {
-  color: #2d3748;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  margin-top: 0;
+// ============================================
+// CONTENT
+// ============================================
+.content {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  padding: 60px 72px 80px;
+  background: var(--color-surface);
+  min-height: 100vh;
+  max-width: 780px;
+  box-shadow: -1px 0 12px rgba(0, 0, 0, 0.03);
 }
 
-section h2 {
-  color: #2d3748;
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  margin-top: 35px;
+// Override theme layout defaults
+header {
+  width: auto;
+  float: none;
+  position: static;
 }
 
-section h3 {
-  color: #4a5568;
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 15px;
-  margin-top: 25px;
+section {
+  width: auto;
+  float: none;
+  padding-bottom: 0;
+  border: none;
+  margin: 0;
 }
 
-section p {
-  color: #718096;
+footer {
+  width: auto;
+  float: none;
+  position: static;
+}
+
+// ============================================
+// TYPOGRAPHY
+// ============================================
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  margin: 0 0 16px;
+}
+
+// Bio — same size as body, darker for emphasis
+.content > p:first-child,
+.content > p:first-child + p {
+  font-size: var(--text-base);
   line-height: 1.7;
-  margin-bottom: 16px;
-  font-size: 16px;
+  color: var(--color-ink);
+  margin-bottom: 18px;
 }
 
-section a {
-  color: #3182ce;
-  text-decoration: none;
-  transition: color 0.2s ease;
+// ============================================
+// INTERESTS & EDUCATION
+// ============================================
+.info-columns {
+  display: flex;
+  gap: 56px;
+  margin-top: 28px;
+  padding-top: 0;
 }
 
-section a:hover {
-  color: #2c5282;
+.info-col {
+  flex: 1;
 }
 
-// List styling
-section ul {
-  padding-left: 20px;
+.info-col h5 {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-muted);
+  margin: 0 0 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-section li {
-  color: #718096;
-  line-height: 1.6;
+.info-col h5 i {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.info-col ul {
+  list-style: none;
+  padding-left: 18px;
+  margin: 0;
+}
+
+.info-col li {
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.5;
   margin-bottom: 6px;
 }
 
-// Responsive design
-@media (max-width: 768px) {
+.edu-item {
+  margin-bottom: 12px;
+  padding-left: 18px;
+}
+
+
+.edu-item:last-child {
+  margin-bottom: 0;
+}
+
+.edu-degree {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.4;
+}
+
+.edu-school {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin-top: 0;
+  line-height: 1.4;
+}
+
+// ============================================
+// SECTION HEADINGS — Consistent cadence
+// ============================================
+.content h4 {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-secondary);
+  margin-top: var(--section-gap);
+  margin-bottom: 0;
+}
+
+.content hr {
+  border: none;
+  height: 0;
+  margin: 12px 0 24px 0;
+  padding: 0;
+  border-top: 2px solid var(--color-ink);
+  width: 32px;
+}
+
+// Body paragraphs
+.content p {
+  color: var(--color-body);
+  line-height: 1.7;
+  margin-bottom: 14px;
+  font-size: var(--text-base);
+}
+
+// Links
+.content a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.content a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--color-faint);
+}
+
+// ============================================
+// NEWS — Clean timeline
+// ============================================
+.news-item {
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+  margin-bottom: 18px;
+}
+
+.news-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.news-date {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-secondary);
+  min-width: 88px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.news-text {
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-body);
+}
+
+.news-text em {
+  color: var(--color-ink);
+  font-style: italic;
+}
+
+.news-text a {
+  color: var(--color-accent);
+}
+
+// ============================================
+// PUBLICATIONS
+// ============================================
+.pub {
+  margin-bottom: 28px;
+}
+
+.pub:last-of-type {
+  margin-bottom: 0;
+}
+
+.pub-title {
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+
+.pub-title a {
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.pub-title a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.pub-venue {
+  font-size: var(--text-sm);
+  color: var(--color-secondary);
+  line-height: 1.5;
+  letter-spacing: 0.005em;
+}
+
+.pub-award {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-award);
+  background: var(--color-award-bg);
+  padding: 2px 8px 1px;
+  border-radius: 2px;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+// Scholar CTA
+.scholar-cta {
+  margin-top: 32px;
+  font-size: var(--text-sm);
+  color: var(--color-secondary);
+}
+
+.scholar-cta a {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.scholar-cta a::after {
+  content: ' \2192';
+  font-size: var(--text-sm);
+}
+
+// Blockquote fallback
+.content blockquote {
+  border: none;
+  margin: 36px 0 0;
+  padding: 0;
+  font-style: normal;
+}
+
+.content blockquote p {
+  font-size: var(--text-sm);
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+// ============================================
+// FOOTER
+// ============================================
+.page-footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-rule);
+  font-size: var(--text-xs);
+  color: var(--color-faint);
+  letter-spacing: 0.01em;
+}
+
+// ============================================
+// LISTS
+// ============================================
+.content ul, .content ol {
+  padding-left: 20px;
+  margin: 0 0 20px;
+}
+
+.content .info-col ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.content li {
+  color: var(--color-body);
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
+// ============================================
+// RESPONSIVE
+// ============================================
+
+// Prevent horizontal overflow
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 960px) {
   .wrapper {
     flex-direction: column;
-    width: 100%;
   }
-  
-  .main-header {
+
+  .sidebar {
     width: 100%;
+    min-width: 100%;
     height: auto;
     position: relative;
-    padding: 30px 20px;
     border-right: none;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid var(--color-rule);
   }
-  
-  section {
-    width: 100%;
+
+  .sidebar-inner {
+    padding: 44px 28px 36px;
+  }
+
+  .profile-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .content {
     margin-left: 0;
-    padding: 30px 20px;
+    padding: 44px 32px 64px;
+    max-width: 100%;
+  }
+
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  header { padding-right: 0; }
+  section { border: none; padding: 0; margin: 0; }
+
+  .info-columns {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .news-date {
+    min-width: auto;
+  }
+
+  .pub {
+    margin-bottom: 22px;
+  }
+
+  // Award badge on its own line on tablet
+  .pub-venue {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 0;
+  }
+
+  .pub-award {
+    margin-left: 0;
+  }
+
+  // Reduce section gap
+  .content h4 {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-inner {
+    padding: 36px 20px 28px;
+  }
+
+  .site-name {
+    font-size: 24px;
+  }
+
+  .content {
+    padding: 28px 18px 40px;
+  }
+
+  .profile-image {
+    width: 96px;
+    height: 96px;
+  }
+
+  .content h4 {
+    margin-top: 32px;
+  }
+
+  // Tighter pub spacing
+  .pub {
+    margin-bottom: 18px;
+  }
+
+  // Ensure long titles wrap properly
+  .pub-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  // Social links — adequate touch targets (44px)
+  .social-links a {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Stack info columns tighter
+  .info-columns {
+    gap: 20px;
+  }
+
+  // Footer
+  .page-footer {
+    margin-top: 36px;
+  }
+
+  .scholar-cta {
+    margin-top: 24px;
   }
 }
