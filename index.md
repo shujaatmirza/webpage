@@ -44,7 +44,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Aug 2025</span>
-  <span class="news-text"><em>Distinguished Artifact Award</em> at USENIX Security 2025 for <a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
+  <span class="news-text"><span class="news-award">Distinguished Artifact Award</span> at USENIX Security 2025 for <a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
 </div>
 
 <div class="news-item">
@@ -64,7 +64,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Jul 2024</span>
-  <span class="news-text">Runner-up, <em>Andreas Pfitzmann Best Paper Award</em> at <a href="https://petsymposium.org/2024/student-paper-award.php" target="_blank">PETS 2024</a>.</span>
+  <span class="news-text">Runner-up, <span class="news-award">Andreas Pfitzmann Best Paper Award</span> at <a href="https://petsymposium.org/2024/student-paper-award.php" target="_blank">PETS 2024</a>.</span>
 </div>
 
 <div class="news-item">
@@ -74,7 +74,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Dec 2023</span>
-  <span class="news-text"><em>Best Paper Award</em> at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
+  <span class="news-text"><span class="news-award">Best Paper Award</span> at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
 </div>
 
 <div class="news-item">
