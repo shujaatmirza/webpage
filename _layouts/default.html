@@ -7,12 +7,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-    <link rel="icon" type="image/jpeg" href="{{ "/assets/img/headshot.jpeg" | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ "/assets/img/favicon-64.png" | relative_url }}">
 
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7CS1PGEX1"></script>
@@ -28,12 +28,13 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <div class="wrapper">
       <aside class="sidebar">
         <div class="sidebar-inner">
           {% if site.logo %}
             <div class="photo-frame">
-              <img src="{{site.logo | relative_url}}" alt="{{ site.title }}" class="profile-image" />
+              <img src="{{site.logo | relative_url}}" alt="{{ site.title }}" class="profile-image" width="140" height="140" />
             </div>
           {% endif %}
 
@@ -42,14 +43,14 @@
 
           <nav class="social-links" aria-label="Social profiles">
             <a href="mailto:shujaat.mirza@nyu.edu" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://scholar.google.ae/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             <a href="https://www.linkedin.com/in/shujaatmirzaa/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/shujaatmirzaa" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://x.com/shujaatmirzaa" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
           </nav>
         </div>
       </aside>
 
-      <main class="content">
+      <main class="content" id="main-content">
         {{ content }}
       </main>
     </div>

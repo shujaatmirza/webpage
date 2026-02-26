@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](http://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
+I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
 
 Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers working on AI alignment, interpretability, and governance. I have held research positions at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
 
@@ -13,7 +13,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
       <li>Autonomy and Loss of Control</li>
       <li>Adversarial Machine Learning</li>
       <li>Harmful Manipulation</li>
-      <li>Data Privacy</li>
+      <li>Privacy-Enhancing Technologies</li>
     </ul>
   </div>
   <div class="info-col">
@@ -44,7 +44,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Aug 2025</span>
-  <span class="news-text"><em>Distinguished Artifact Award</em> at USENIX Security 2025 for <a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
+  <span class="news-text"><span class="news-award">Distinguished Artifact Award</span> at USENIX Security 2025 for <a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
 </div>
 
 <div class="news-item">
@@ -64,7 +64,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Jul 2024</span>
-  <span class="news-text">Runner-up, <em>Andreas Pfitzmann Best Paper Award</em> at <a href="https://petsymposium.org/2024/student-paper-award.php" target="_blank">PETS 2024</a>.</span>
+  <span class="news-text">Runner-up, <span class="news-award">Andreas Pfitzmann Best Paper Award</span> at <a href="https://petsymposium.org/2024/student-paper-award.php" target="_blank">PETS 2024</a>.</span>
 </div>
 
 <div class="news-item">
@@ -74,7 +74,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Dec 2023</span>
-  <span class="news-text"><em>Best Paper Award</em> at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
+  <span class="news-text"><span class="news-award">Best Paper Award</span> at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
 </div>
 
 <div class="news-item">
@@ -113,4 +113,4 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <p class="scholar-cta">Complete list on <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank">Google Scholar</a></p>
 
-<div class="page-footer">&copy; 2025 Shujaat Mirza</div>
+<div class="page-footer">&copy; 2026 Shujaat Mirza</div>
