@@ -2,9 +2,9 @@
 layout: default
 ---
 
-I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
+I am an AI Safety Researcher at Microsoft, where I red-team frontier AI models and agentic systems on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"}. My research focuses on emerging risks from increasingly autonomous AI, particularly loss of control.
 
-Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers on AI alignment, interpretability, and governance. I also conducted privacy-preserving research at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
+I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}. Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers on AI alignment, interpretability, and governance. I also conducted privacy-preserving research at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
 
 <div class="info-columns">
   <div class="info-col">
@@ -38,7 +38,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 <hr>
 
 <div class="news-item">
-  <span class="news-date">Fall 2025</span>
+  <span class="news-date">Feb 2026</span>
   <span class="news-text">Serving on the Program Committee for <a href="https://www.usenix.org/conference/usenixsecurity26/call-for-papers" target="_blank">USENIX Security 2026</a>.</span>
 </div>
 
@@ -72,10 +72,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
   <span class="news-text">Publication Chair, <a href="https://wp.nyu.edu/acns2024/organization/" target="_blank">ACNS 2024</a>.</span>
 </div>
 
-<div class="news-item">
-  <span class="news-date">Dec 2023</span>
-  <span class="news-text">Best Paper Award at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
-</div>
+
 
 
 #### Research
