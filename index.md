@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](http://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
+I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
 
 Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers working on AI alignment, interpretability, and governance. I have held research positions at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
 
@@ -13,7 +13,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
       <li>Autonomy and Loss of Control</li>
       <li>Adversarial Machine Learning</li>
       <li>Harmful Manipulation</li>
-      <li>Data Privacy</li>
+      <li>Privacy-Enhancing Technologies</li>
     </ul>
   </div>
   <div class="info-col">
