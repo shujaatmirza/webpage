@@ -113,4 +113,4 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <p class="scholar-cta">Complete list on <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank">Google Scholar</a></p>
 
-<div class="page-footer">&copy; 2025 Shujaat Mirza</div>
+<div class="page-footer">&copy; 2026 Shujaat Mirza</div>
