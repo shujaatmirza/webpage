@@ -245,7 +245,7 @@ a:focus-visible {
 .content {
   flex: 1;
   margin-left: var(--sidebar-width);
-  padding: 60px 72px 80px;
+  padding: 60px 60px 80px;
   background: var(--color-surface);
   min-height: 100vh;
   max-width: 780px;
@@ -298,7 +298,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 56px;
   margin-top: 28px;
-  padding-top: 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-rule);
 }
 
 .info-col {
@@ -447,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--text-sm);
   font-weight: 500;
   color: var(--color-secondary);
-  min-width: 88px;
+  min-width: 78px;
   flex-shrink: 0;
   white-space: nowrap;
 }
