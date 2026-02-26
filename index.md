@@ -4,7 +4,7 @@ layout: default
 
 I am an AI Safety Researcher at Microsoft, working on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"} to assess the security and safety of frontier AI models and agentic systems. My research focuses on emerging risks such as loss of control from autonomous AI development and deployment. I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}.
 
-Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers working on AI alignment, interpretability, and governance. I have held research positions at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
+Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers on AI alignment, interpretability, and governance. I also conducted privacy-preserving research at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
 
 <div class="info-columns">
   <div class="info-col">
