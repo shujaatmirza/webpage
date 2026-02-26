@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-col ul {
   list-style: none;
-  padding-left: 18px;
+  padding-left: 15px;
   margin: 0;
 }
 
@@ -334,6 +334,19 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-body);
   line-height: 1.5;
   margin-bottom: 6px;
+  position: relative;
+}
+
+.info-col li::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.35;
 }
 
 .edu-item {
@@ -413,7 +426,16 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 24px;
   align-items: baseline;
-  margin-bottom: 18px;
+  margin-bottom: 2px;
+  padding: 10px 14px;
+  margin-left: -14px;
+  margin-right: -14px;
+  border-radius: 6px;
+  transition: background-color 0.15s ease;
+}
+
+.news-item:hover {
+  background-color: rgba(61, 90, 128, 0.025);
 }
 
 .news-item:last-of-type {
@@ -464,14 +486,16 @@ h1, h2, h3, h4, h5, h6 {
 // PUBLICATIONS
 // ============================================
 .pub {
-  margin-bottom: 28px;
-  padding-left: 16px;
+  margin-bottom: 20px;
+  padding: 14px 16px;
   border-left: 2px solid var(--color-rule);
-  transition: border-color 0.2s ease;
+  border-radius: 0 6px 6px 0;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .pub:hover {
   border-left-color: var(--color-accent);
+  background-color: rgba(61, 90, 128, 0.018);
 }
 
 .pub:last-of-type {
@@ -584,7 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content .info-col ul {
-  padding-left: 18px;
+  padding-left: 15px;
   margin: 0;
 }
 
@@ -689,9 +713,16 @@ html, body {
   .news-item {
     flex-direction: column;
     gap: 3px;
-    margin-bottom: 18px;
-    padding-bottom: 18px;
+    margin-bottom: 0;
+    padding: 18px 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
     border-bottom: 1px solid var(--color-rule);
+  }
+
+  .news-item:hover {
+    background-color: transparent;
   }
 
   .news-item:last-of-type {
@@ -705,8 +736,8 @@ html, body {
   }
 
   .pub {
-    margin-bottom: 20px;
-    padding-left: 14px;
+    margin-bottom: 16px;
+    padding: 12px 14px;
   }
 
   .pub-title {
