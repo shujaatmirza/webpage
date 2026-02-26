@@ -59,7 +59,7 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 
 <div class="news-item">
   <span class="news-date">Aug 2024</span>
-  <span class="news-text">Defended PhD dissertation: <em>Towards Responsible AI: Safeguarding Privacy, Integrity, and Fairness.</em></span>
+  <span class="news-text">Defended PhD dissertation: Towards Responsible AI: Safeguarding Privacy, Integrity, and Fairness.</span>
 </div>
 
 <div class="news-item">
@@ -77,11 +77,6 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
   <span class="news-text"><span class="news-award">Best Paper Award</span> at <a href="https://ml4health.github.io/2023/" target="_blank">ML4H 2023</a> (NeurIPS workshop).</span>
 </div>
 
-<div class="news-item">
-  <span class="news-date">May 2023</span>
-  <span class="news-text">Program Committee, <a href="https://secweb.work/2023.html" target="_blank">SecWeb 2023</a>.</span>
-</div>
-
 
 #### Research
 <hr>
@@ -92,11 +87,6 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 </div>
 
 <div class="pub">
-  <div class="pub-title"><a href="https://arxiv.org/pdf/2503.22877" target="_blank">Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval Models</a></div>
-  <div class="pub-venue">arXiv, 2025</div>
-</div>
-
-<div class="pub">
   <div class="pub-title"><a href="papers/codexleaks.pdf" target="_blank">CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot</a></div>
   <div class="pub-venue">USENIX Security Symposium, Anaheim, US, 2023</div>
 </div>
@@ -104,6 +94,11 @@ Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){
 <div class="pub">
   <div class="pub-title"><a href="papers/ml4h_foundation_models.pdf" target="_blank">How Fair are Medical Imaging Foundation Models?</a></div>
   <div class="pub-venue">ML4H @ NeurIPS, New Orleans, US, 2023 <span class="pub-award">Best Paper Award</span></div>
+</div>
+
+<div class="pub">
+  <div class="pub-title"><a href="https://arxiv.org/pdf/2503.22877" target="_blank">Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval Models</a></div>
+  <div class="pub-venue">arXiv, 2025</div>
 </div>
 
 <div class="pub">

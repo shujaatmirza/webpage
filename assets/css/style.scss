@@ -426,8 +426,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 24px;
   align-items: baseline;
-  margin-bottom: 2px;
-  padding: 10px 14px;
+  margin-bottom: 0;
+  padding: 8px 14px;
   margin-left: -14px;
   margin-right: -14px;
   border-radius: 6px;
@@ -458,11 +458,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-body);
 }
 
-.news-text em {
-  font-family: var(--font-serif);
-  color: var(--color-ink);
-  font-style: italic;
-  font-size: 15.5px;
+.news-award {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-award);
+  background: var(--color-award-bg);
+  padding: 1px 7px 0;
+  border-radius: 2px;
+  white-space: nowrap;
 }
 
 .news-text a {
@@ -473,14 +479,16 @@ h1, h2, h3, h4, h5, h6 {
 // PUBLICATIONS
 // ============================================
 .pub {
-  margin-bottom: 28px;
-  padding-left: 16px;
+  margin-bottom: 20px;
+  padding: 14px 16px;
   border-left: 2px solid var(--color-rule);
-  transition: border-color 0.2s ease;
+  border-radius: 0 6px 6px 0;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .pub:hover {
   border-left-color: var(--color-accent);
+  background-color: rgba(61, 90, 128, 0.018);
 }
 
 .pub:last-of-type {
@@ -698,9 +706,16 @@ html, body {
   .news-item {
     flex-direction: column;
     gap: 3px;
-    margin-bottom: 18px;
-    padding-bottom: 18px;
+    margin-bottom: 0;
+    padding: 14px 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
     border-bottom: 1px solid var(--color-rule);
+  }
+
+  .news-item:hover {
+    background-color: transparent;
   }
 
   .news-item:last-of-type {
@@ -714,8 +729,8 @@ html, body {
   }
 
   .pub {
-    margin-bottom: 20px;
-    padding-left: 14px;
+    margin-bottom: 16px;
+    padding: 12px 14px;
   }
 
   .pub-title {
