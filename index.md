@@ -1,19 +1,20 @@
 ---
 layout: default
+image: /assets/img/headshot-opt.jpeg
 ---
 
-I am an AI Safety Researcher at Microsoft, where I red-team frontier AI models and agentic systems on the [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"}. My research focuses on emerging risks from increasingly autonomous AI, particularly loss of control.
+I want to understand how frontier AI can fail in ways we don't expect, and to catch those failures before they happen. On Microsoft's [AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/){:target="_blank"}, I probe these systems for emerging risks, focused on autonomy and loss of control.
 
-I hold a PhD in Computer Science from New York University, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"} at the [Center for Cyber Security](https://cyber.nyu.edu){:target="_blank"}. Previously, I served as Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, guiding researchers on AI alignment, interpretability, and governance. I also conducted privacy-preserving research at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
+I received my PhD from the NYU Center for Cyber Security, advised by [Dr. Christina Pöpper](https://poepper.net){:target="_blank"}. Previously: Research Manager at [MATS](https://www.matsprogram.org){:target="_blank"}, and privacy-preserving ML at [Spotify Tech Research](https://research.atspotify.com){:target="_blank"}.
 
 <div class="info-columns">
   <div class="info-col">
     <h5><i class="fas fa-lightbulb"></i> Interests</h5>
     <ul>
+      <li>Emerging Risks</li>
       <li>Autonomy and Loss of Control</li>
-      <li>Adversarial Machine Learning</li>
       <li>Privacy Enhancing Technologies</li>
-      <li>Harmful Manipulation</li>
+      <li>Adversarial Machine Learning</li>
     </ul>
   </div>
   <div class="info-col">
@@ -34,22 +35,27 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 </div>
 
 
-#### Recent Highlights
+## Recent Highlights
 <hr>
 
 <div class="news-item">
+  <span class="news-date">Apr 2026</span>
+  <span class="news-text"><em>"None of us is as dangerous as all of us."</em> We explored what breaks when AI agents become each other's infrastructure. <a href="https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/" target="_blank">Read the blog post →</a></span>
+</div>
+
+<div class="news-item">
   <span class="news-date">Feb 2026</span>
-  <span class="news-text">Serving on the Program Committee for <a href="https://www.usenix.org/conference/usenixsecurity26/call-for-papers" target="_blank">USENIX Security 2026</a>.</span>
+  <span class="news-text">Serving on the Program Committee for <a href="https://www.usenix.org/conference/usenixsecurity26" target="_blank">USENIX Security 2026</a>.</span>
 </div>
 
 <div class="news-item">
   <span class="news-date">Aug 2025</span>
-  <span class="news-text">Distinguished Artifact Award at USENIX Security 2025 for <a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
+  <span class="news-text">Distinguished Artifact Award at USENIX Security 2025 for <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/villa" target="_blank">reverse-engineering safety filters in DALL·E</a>.</span>
 </div>
 
 <div class="news-item">
   <span class="news-date">Jul 2025</span>
-  <span class="news-text">Red-teamed OpenAI's GPT-5 Reasoning model at Microsoft, evaluating autonomy, persuasion, and deception capabilities.</span>
+  <span class="news-text">Red-teamed OpenAI's GPT-5 Reasoning model at Microsoft, evaluating autonomy, persuasion, and deception capabilities. <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7359287915039936512/" target="_blank">Read more →</a></span>
 </div>
 
 <div class="news-item">
@@ -59,7 +65,7 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 
 <div class="news-item">
   <span class="news-date">Aug 2024</span>
-  <span class="news-text">Defended PhD dissertation: Towards Responsible AI: Safeguarding Privacy, Integrity, and Fairness.</span>
+  <span class="news-text">Defended PhD dissertation: Towards Responsible AI: Safeguarding Privacy, Integrity, and Fairness. <a href="https://x.com/XtinaPoepper/status/1827791626552709360" target="_blank">From my advisor →</a></span>
 </div>
 
 <div class="news-item">
@@ -75,8 +81,13 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 
 
 
-#### Research
+## Research
 <hr>
+
+<div class="pub">
+  <div class="pub-title"><a href="https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/" target="_blank">Red-teaming a Network of Agents: Understanding What Breaks When AI Agents Interact at Scale</a></div>
+  <div class="pub-venue">Microsoft Research Blog, April 2026</div>
+</div>
 
 <div class="pub">
   <div class="pub-title"><a href="https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf" target="_blank">Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines</a></div>
@@ -84,8 +95,8 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 </div>
 
 <div class="pub">
-  <div class="pub-title"><a href="papers/codexleaks.pdf" target="_blank">CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot</a></div>
-  <div class="pub-venue">USENIX Security Symposium, Anaheim, US, 2023</div>
+  <div class="pub-title"><a href="https://petsymposium.org/popets/2024/popets-2024-0109.pdf" target="_blank">Unraveling a Decade of Privacy Discourse around the World</a></div>
+  <div class="pub-venue">Privacy Enhancing Technologies (PETS), Bristol, UK, 2024 <span class="pub-award">Pfitzmann Best Paper Runner-up</span></div>
 </div>
 
 <div class="pub">
@@ -94,8 +105,8 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 </div>
 
 <div class="pub">
-  <div class="pub-title"><a href="https://arxiv.org/pdf/2503.22877" target="_blank">Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval Models</a></div>
-  <div class="pub-venue">arXiv, 2025</div>
+  <div class="pub-title"><a href="papers/codexleaks.pdf" target="_blank">CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot</a></div>
+  <div class="pub-venue">USENIX Security Symposium, Anaheim, US, 2023</div>
 </div>
 
 <div class="pub">
@@ -104,5 +115,3 @@ I hold a PhD in Computer Science from New York University, advised by [Dr. Chris
 </div>
 
 <p class="scholar-cta">Complete list on <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank">Google Scholar</a></p>
-
-<div class="page-footer">&copy; 2026 Shujaat Mirza</div>

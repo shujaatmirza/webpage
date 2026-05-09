@@ -1,7 +1,42 @@
 title: Shujaat Mirza
 logo: /assets/img/headshot-opt.jpeg
-description: AI Safety Researcher at Microsoft
+description: AI Safety and Security Researcher
+url: https://www.shujaatmirza.com
+lang: en-US
+
+author:
+  name: Shujaat Mirza
+  email: shujaat.mirza@nyu.edu
+  twitter: shujaatmirzaa
+
+twitter:
+  username: shujaatmirzaa
+  card: summary_large_image
+
+social:
+  name: Shujaat Mirza
+  links:
+    - https://www.linkedin.com/in/shujaatmirzaa/
+    - https://x.com/shujaatmirzaa
+    - https://scholar.google.com/citations?user=6mJvLd4AAAAJ
+
 show_downloads: false
-google_analytics:
-exclude: [vendor]
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - vendor
+  - "index copy.md"
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - script
+  - docs
+  - README.md
+  - CLAUDE.md
+  - LICENSE
+
 theme: jekyll-theme-minimal

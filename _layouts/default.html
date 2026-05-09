@@ -2,17 +2,29 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
+    {% seo %}
+
+    <link rel="icon" type="image/png" href="{{ "/assets/img/favicon-64.png" | relative_url }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-    <link rel="icon" type="image/png" href="{{ "/assets/img/favicon-64.png" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7CS1PGEX1"></script>
@@ -20,39 +32,83 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-N7CS1PGEX1');
+      gtag('config', 'G-N7CS1PGEX1', {
+        'anonymize_ip': true,
+        'allow_google_signals': false,
+        'allow_ad_personalization_signals': false
+      });
     </script>
-
-    {% seo %}
-
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
-    <div class="wrapper">
-      <aside class="sidebar">
-        <div class="sidebar-inner">
-          {% if site.logo %}
-            <div class="photo-frame">
-              <img src="{{site.logo | relative_url}}" alt="{{ site.title }}" class="profile-image" width="140" height="140" />
-            </div>
-          {% endif %}
 
-          <h1 class="site-name"><a href="https://www.shujaatmirza.com/">{{ site.title }}</a></h1>
-          <p class="site-tagline">{{ site.description }}</p>
+    <main class="page" id="main-content">
+      <header class="page-header">
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="profile-image" width="84" height="84" fetchpriority="high" />
+        {% endif %}
+        <h1 class="site-name"><a href="{{ '/' | absolute_url }}">{{ site.title }}</a><span class="cursor" aria-hidden="true">_</span></h1>
+        <p class="site-tagline"><span class="prompt" aria-hidden="true">&gt;&nbsp;</span>{{ site.description }}</p>
 
+        <div class="header-actions">
           <nav class="social-links" aria-label="Social profiles">
-            <a href="mailto:shujaat.mirza@nyu.edu" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-            <a href="https://www.linkedin.com/in/shujaatmirzaa/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://x.com/shujaatmirzaa" target="_blank" rel="noopener" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="mailto:shujaat.mirza@nyu.edu" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/shujaatmirzaa/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://x.com/shujaatmirzaa" target="_blank" rel="noopener" aria-label="X (formerly Twitter)"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
           </nav>
-        </div>
-      </aside>
 
-      <main class="content" id="main-content">
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fas fa-moon theme-icon-moon" aria-hidden="true"></i>
+            <i class="fas fa-sun theme-icon-sun" aria-hidden="true"></i>
+          </button>
+        </div>
+      </header>
+
+      <article class="content">
         {{ content }}
-      </main>
-    </div>
+      </article>
+
+      <footer class="page-footer">
+        <nav class="social-links" aria-label="Social profiles">
+          <a href="mailto:shujaat.mirza@nyu.edu" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.com/citations?user=6mJvLd4AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/shujaatmirzaa/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://x.com/shujaatmirzaa" target="_blank" rel="noopener" aria-label="X (formerly Twitter)"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+        </nav>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fas fa-moon theme-icon-moon" aria-hidden="true"></i>
+          <i class="fas fa-sun theme-icon-sun" aria-hidden="true"></i>
+        </button>
+      </footer>
+    </main>
+
+    <script>
+      (function() {
+        var btns = document.querySelectorAll('.theme-toggle');
+        if (!btns.length) return;
+        function currentTheme() {
+          var t = document.documentElement.getAttribute('data-theme');
+          if (t === 'dark' || t === 'light') return t;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        function syncLabels() {
+          var label = currentTheme() === 'dark' ? 'Switch to light theme' : 'Switch to dark theme';
+          btns.forEach(function(b) { b.setAttribute('aria-label', label); });
+        }
+        function setTheme(t) {
+          document.documentElement.setAttribute('data-theme', t);
+          try { localStorage.setItem('theme', t); } catch (e) {}
+          syncLabels();
+        }
+        btns.forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+          });
+        });
+        syncLabels();
+      })();
+    </script>
   </body>
 </html>
